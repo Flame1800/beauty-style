@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+@media screen and (max-width: 700px) {
+    nav {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    nav a {
+        margin-top: 10px;
+    }
+
+    .logo {
+        margin-left: 30px;
+    }
+}
+
+
+.button {
+    background: linear-gradient(266.25deg, #63DAFF 13.77%, #5ABAFF 92.22%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 15px 40px;
+    border: none;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    cursor: pointer;
+    max-width: 250px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Стилизация хедера */
+header {
+    width: 100%;
+    padding: 20px 0;
+}
+
+header .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 140px;
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #154973;
+    font-weight: 800;
+    margin-left: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+/* Стилизация хедера (конец) */
+
+
+/* Стилизация футера */
+footer {
+    position: relative;
+    bottom: 0;
+    height: 160px;
+    background: #EDFBFF;
+    width: 100%;
+}
+
+footer .content {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: inherit;
+}
+
+footer .address {
+    max-width: 300px;
+}
